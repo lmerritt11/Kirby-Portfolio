@@ -7,5 +7,11 @@
 
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
+  <?php echo css('assets/css/screen.css') ?>
+
 </head>
 <body>
+
+<a href="/"><h1>Liz Merritt </h1></a>
+
+<?php snippet('nav') ?>

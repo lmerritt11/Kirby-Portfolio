@@ -11,3 +11,6 @@ fields:
   description:
     label: Description
     type:  textarea
+  date:
+    label: Project date
+    type: date
